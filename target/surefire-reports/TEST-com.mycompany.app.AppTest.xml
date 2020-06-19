@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.322" tests="43" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\cesar\Desktop\RangeTDD\Range\target\test-classes;C:\Users\cesar\Desktop\RangeTDD\Range\target\classes;C:\Users\cesar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\cesar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/La_Paz"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\cesar\AppData\Local\Temp\surefire16370946150115408491\surefirebooter7588412243207847225.jar C:\Users\cesar\AppData\Local\Temp\surefire16370946150115408491 2020-06-08T23-39-12_009-jvmRun1 surefire13804607567699612366tmp surefire_017179306139844040327tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\cesar\Desktop\RangeTDD\Range\target\test-classes;C:\Users\cesar\Desktop\RangeTDD\Range\target\classes;C:\Users\cesar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\cesar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\cesar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\cesar\Desktop\RangeTDD\Range"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\cesar\AppData\Local\Temp\surefire16370946150115408491\surefirebooter7588412243207847225.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="cesar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\cesar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\cesar\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="C:\Users\cesar\Desktop\RangeTDD\Range"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jre-11.0.7.10-hotspot\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Ruby25-x64\bin;C:\Users\cesar\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\cesar\AppData\Local\Programs\Python\Python37-32\;C:\Users\cesar\AppData\Local\Microsoft\WindowsApps;C:\Users\cesar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\cesar\AppData\Roaming\npm;C:\src\flutter\flutter\bin;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="r3EqualsC1_4AShouldBeFalse" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="r4overlapsC4_10AShouldBeTrue" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r3notEqualsC1_4AShouldBeTrue" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r4ContainsRangeC1_3A" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="r4DoesNotContains2_5" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r1EndPointsShouldBe1_4" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="r3overlapsA4_7CShouldBeFalse" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r1notEqualsA0_5AShouldBeFalse" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r2EndPointsShouldBe1_3" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r3DoesNotContains1" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r3EndPointsShouldBe2_4" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r2EqualsC1_4AShouldBeTrue" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="constructorThrowsIllegalArg" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r4EndPointsShouldBe2_3" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r3ContainsRangeC1_4C" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="constructorC100_400A" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="constructorA1_4A" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="constructorA1_4C" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="constructorC1_4A" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="constructorC1_4C" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r2ContainsRangeC1_3A" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r2DoesNotContains2_3" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r1DoesNotContains2" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r2notEqualsC1_4AShouldBeFalse" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="r1DoesNotContainsRangeC1_2C" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r1EqualsA0_5AShouldBeTrue" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r2DoesNotContainsRangeC1_3A" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r3DoesNotContainsRangeC1_4C" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r4DoesNotContainsRangeC1_3A" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r2Contains2_3" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r4notEqualsC10_20CShouldBeTrue" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r4Contains2_5" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r1ContainsRangeC1_2C" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r1overlapsA2_9AShouldBeTrue" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="constructorThrowsIndexOutOfBound" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r4AllPoints" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r3AllPoints" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="r4EqualsC10_20CShouldBeFalse" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r3Contains1" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r2overlapsC2_5AShouldBeTrue" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r2AllPoints" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="r1AllPoints" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="r1Contains2" classname="com.mycompany.app.AppTest" time="0"/>
+</testsuite>
